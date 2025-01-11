@@ -1,15 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      colors: {
-        "disney-blue": "#1f235e",
+      fontFamily: {
+        sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
       },
-      borderRadius: {
-        "3xl": "1.5rem",
+      spacing: {
+        '128': '32rem',
       },
+      height: {
+        'screen-90': '90vh',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' }
+        }
+      },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards 0.5s'
+      }
     },
   },
   plugins: [],
-};
+}
