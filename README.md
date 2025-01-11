@@ -14,6 +14,8 @@ This project is a fashion e-commerce application built with React and Vite.
 ![image](https://github.com/user-attachments/assets/e45a5ba9-7ed1-49d8-853d-423d8429e9a5)
 ![image](https://github.com/user-attachments/assets/1f9f7ee4-aa02-4eb9-a8e5-88769b16a36f)
 ![image](https://github.com/user-attachments/assets/f4ab8277-5b3b-4d16-bda8-78aceb21059d)
+![image](https://github.com/user-attachments/assets/84737b5b-b2a3-469d-9730-0798b387b6f2)
+
 
 
 ## Features
